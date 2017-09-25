@@ -1,0 +1,72 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image: url(pic/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    min-height: 1366px;
+    position: relative;
+    
+
+}
+
+ul {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+}
+   ul li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 1.2em; /* Отступ слева */
+    padding-top: 1.2px;
+    
+    /*padding: 1.2em; /* Поля вокруг текста */
+    font-size: 1.2em;
+    color: dimgray; 
+}
+
+.logo {
+    background-image: url(pic/111.png);
+    background-repeat: no-repeat;
+    background-size: auto
+    background-position: top center;
+    position: relative;
+    padding-top: 30px;
+    font-size: 1.5em;
+    color: whitesmoke;
+}
+
+.mmenu{
+    padding-top: 20px;
+}
+
+.fa-twitter{
+    color: #fa5c65;
+}
+
+.fa-facebook{
+    color: #fa5c65;
+}
+
+.zag{
+    padding-top: 15%;
+}
+.zag h1 {
+    font-size: 3.5em;
+}
+
+.buttom1{
+    background-image: url(pic/222.png);
+    background-repeat: no-repeat;
+    background-size: auto
+    background-position: top center;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 1.2em;
+    color: whitesmoke;
+    min-height: 64px;
+}
