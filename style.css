@@ -10,7 +10,7 @@ header{
     background-position: top center;
     min-height: 1366px;
     position: relative;
-    
+
 
 }
 
@@ -22,10 +22,18 @@ ul {
     display: inline; /* Отображать как строчный элемент */
     margin-right: 1.2em; /* Отступ слева */
     padding-top: 1.2px;
-    
+
     /*padding: 1.2em; /* Поля вокруг текста */
     font-size: 1.2em;
-    color: dimgray; 
+    color: dimgray;
+}
+
+h1, h2, h3 {
+  color: #343546;
+}
+
+p{
+    color: #9192A6;
 }
 
 .logo {
@@ -69,4 +77,29 @@ ul {
     font-size: 1.2em;
     color: whitesmoke;
     min-height: 64px;
+}
+
+.content{
+    padding-top: 5%;
+}
+.content h1{
+    font-size: 3.5em
+}
+.content h2{
+    font-size: 2.7em
+}
+.content p{
+    font-size: 1.2em
+}
+
+.more{
+    color: #fa5c65;
+    font-size: 1.2em;
+}
+.dot{
+    font-family: serif;
+    color: #fa5c65;
+}
+.portfolio{
+    padding-top: 10%;
 }
